@@ -1,0 +1,5 @@
+name: Arista 7050QX family
+models:
+- name: 7050QX-32
+last-eos-revision-supported: 4.25
+note: Models with 2GB of RAM are only supported through 4.24.

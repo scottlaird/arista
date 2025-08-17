@@ -1,0 +1,8 @@
+name: Arista 7300X family
+models:
+- name: DCS-7304X-FM
+- name: DCS-7308X-FM
+- name: DCS-7300X-32Q-LC
+- name: DCS-7300X-64S-LC
+- name: DCS-7300X-64T-LC
+last-eos-revision-supported: 4.28

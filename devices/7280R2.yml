@@ -1,0 +1,14 @@
+name: Arista 7280R2 family
+models:
+- name: DCS-7280CR2-60
+- name: DCS-7280CR2A-60
+- name: DCS-7280CR2K-60
+- name: DCS-7280CR2A-30
+- name: DCS-7280CR2K-30
+- name: DCS-7280CR2M-30
+- name: DCS-7280SR2-48YC6
+- name: DCS-7280SR2-48YC6-M
+- name: DCS-7280SR2A-48YC6
+- name: DCS-7280SR2A-48YC6-M
+- name: DCS-7280SR2K-48C6-M
+last-eos-revision-supported: 4.33

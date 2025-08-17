@@ -1,0 +1,76 @@
+name: Arista 7500R family
+pdf-datasheet-url: "https://www.arista.com/assets/data/pdf/Datasheets/7020R-48_Datasheet.pdf"
+models:
+- name: DCS-7020TR-48
+  typical-watts: 105
+  max-watts: 115
+  rack-units: 1
+  cpu-cores: 4
+  cpu-ram-gb: 8
+  cpu-flash-gb: 4
+  switch-chip: Qumran-AX
+  ports:
+    - type: 1000base-T
+      count: 48
+    - type: SFP+
+      count: 6
+- name: DCS-7020TRA-48
+  typical-watts: 115
+  max-watts: 125
+  rack-units: 1
+  cpu-cores: 4
+  cpu-ram-gb: 8
+  cpu-flash-gb: 4
+  switch-chip: Qumran-AX
+  ports:
+    - type: 1000base-T
+      count: 48
+    - type: SFP+
+      count: 6
+  notes:
+    - TRA model includes AlgoMatch
+- name: DCS-7020SRG-24C2
+  typical-watts: 95
+  max-watts: 105
+  rack-units: 1
+  cpu-cores: 4
+  cpu-ram-gb: 8
+  cpu-flash-gb: 4
+  switch-chip: Qumran-AX
+  ports:
+    - type: SFP+
+      count: 24
+    - type: QSFP28
+      count: 2
+  notes:
+    - SRG model includes IPsec
+- name: DCS-7020SR-24C2
+  typical-watts: 95
+  max-watts: 105
+  rack-units: 1
+  cpu-cores: 4
+  cpu-ram-gb: 8
+  cpu-flash-gb: 4
+  switch-chip: Qumran-AX
+  ports:
+    - type: SFP+
+      count: 24
+    - type: QSFP28
+      count: 2
+- name: DCS-7020SR-32C2
+  typical-watts: 160
+  max-watts: 189
+  rack-units: 1
+  cpu-cores: 2
+  cpu-ram-gb: 8
+  cpu-flash-gb: 8
+  switch-chip: Qumran-AX
+  ports:
+    - type: SFP+
+      count: 32
+    - type: QSFP28
+      count: 2
+last-eos-revision-supported: 4.33
+end-of-sale-announced: true
+notes:
+  - Switch chip from https://github.com/rendoaw/switch-asic/blob/main/chassis_and_asics.csv

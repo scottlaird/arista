@@ -1,0 +1,63 @@
+name: Arista 7060X family
+pdf-datasheet-url: https://www.arista.com/assets/data/pdf/Datasheets/7060X_7260X_DS.pdf
+models:
+- name: DCS-7060CX2-32S
+  typical-watts: 187
+  max-watts: 333
+  rack-units: 1
+  cpu-cores: 4
+  cpu-ram-gb: 8
+  cpu-flash-gb: 4
+  ports:
+    - type: SFP+
+      count: 2
+    - type: QSFP28
+      count: 32
+- name: DCS-7060SX2-48YC6
+  typical-watts: 240
+  max-watts: 385
+  rack-units: 1
+  cpu-cores: 4
+  cpu-ram-gb: 8
+  cpu-flash-gb: 4
+  ports:
+    - type: SFP28
+      count: 48
+    - type: QSFP28
+      count: 6
+- name: DCS-7060CX-32S
+  typical-watts: 187 
+  max-watts: 333
+  rack-units: 1
+  cpu-cores: 4
+  cpu-ram-gb: 4
+  cpu-flash-gb: 4
+  ports:
+    - type: SFP+
+      count: 2
+    - type: QSFP28
+      count: 32
+- name: DCS-7060CX-64S
+  typical-watts: 1672
+  max-watts: 2090
+  rack-units: 2
+  cpu-cores: 2
+  cpu-ram-gb: 8
+  cpu-flash-gb: 4
+  ports:
+    - type: SFP+
+      count: 4
+    - type: QSFP28
+      count: 64
+- name: DCS-7060QX-64S
+  typical-watts: 315
+  max-watts: 800
+  rack-units: 2
+  cpu-cores: 4
+  cpu-ram-gb: 4
+  cpu-flash-gb: 4
+  ports:
+    - type: SFP+
+      count: 2
+    - type: QSFP+
+      count: 64

@@ -1,0 +1,6 @@
+name: Arista 7160 family
+models:
+- name: DCS-7160-32CQ
+- name: DCS-7160-48YC6
+- name: DCS-7160-48TC6
+last-eos-revision-supported: 4.26

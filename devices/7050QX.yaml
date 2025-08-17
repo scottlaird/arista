@@ -1,0 +1,18 @@
+name: Arista 7050QX family
+pdf-datasheet-url: https://www.arista.com/assets/data/pdf/Datasheets/7050QX-32_32S_Datasheet.pdf
+models:
+- name: 7050QX-32
+  typical-watts: 162
+  max-watts: 332
+  rack-units: 1
+  cpu-cores: 2
+  cpu-ram-gb: 4
+  cpu-flash-gb: 2
+  ports:
+    - type: QSFP+
+      count: 32
+  switch-chip: Trident2
+last-eos-revision-supported: 4.25
+end-of-sale-announced: true
+notes:
+  - Models with 2GB of RAM are only supported through 4.24.

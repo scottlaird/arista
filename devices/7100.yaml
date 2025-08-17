@@ -1,0 +1,13 @@
+name: Arista 7050 family
+models:
+- name: DCS-7124S
+- name: DCS-7124SX
+- name: DCS-7124SX-SSD
+- name: DCS-7124FX
+- name: DCS-7124FX-CL
+- name: DCS-7148S
+- name: DCS-7148SX
+- name: DCS-7120T-4S
+- name: DCS-7140T-8S
+- name: DCS-7048T-4S
+last-eos-revision-supported: 4.13
