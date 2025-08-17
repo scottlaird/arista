@@ -1,5 +1,0 @@
-package main
-
-// Note that this is a linter/schema checker for the Arista model
-// definitions in this repository, *not* a generic Arista config
-// linter.

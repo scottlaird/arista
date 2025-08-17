@@ -1,5 +1,0 @@
-name: Arista 7010X family
-models:
-- name: DCS-7010T-48
-- name: DCS-7010T-48-DC
-last-eos-revision-supported: 4.28
