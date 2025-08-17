@@ -1,8 +1,0 @@
-name: Arista 7500R family
-models:
-- name: DCS-7020TR-48
-- name: DCS-7020TRA-48
-- name: DCS-7020SRG-24C2
-- name: DCS-7020SR-24C2
-- name: DCS-7020SR-32C2
-last-eos-revision-supported: 4.33
