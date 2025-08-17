@@ -1,0 +1,6 @@
+name: Arista 7260X family
+models:
+- name: DCS-7260QX-64
+- name: DCS-7260CX-64
+- name: DCS-7060CX-32S-D
+last-eos-revision-supported: 4.32

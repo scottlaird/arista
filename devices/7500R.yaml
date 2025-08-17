@@ -1,0 +1,20 @@
+name: Arista 7500R family
+models:
+- name: DCS-7516N-CH
+- name: DCS-7516-SUP2
+- name: DCS-7516R-FM
+- name: DCS-7512R-FM
+- name: DCS-7508R-FM
+- name: DCS-7504R-FM
+- name: DCS-7500R-36CQ-LC
+- name: DCS-7500RM-36CQ-LC
+- name: DCS-7500R-36Q-LC
+- name: DCS-7500R-48S2CQ-LC
+- name: DCS-7500R-8CFPX-LC
+- name: DCS-7500R2-36CQ-LC
+- name: DCS-7500R2A-36CQ-LC
+- name: DCS-7500R2AK-36CQ-LC
+- name: DCS-7500R2M-36CQ-LC
+- name: DCS-7500R2AM-36CQ-LC
+- name: DCS-7500R2AK-48YCQ-LC
+last-eos-revision-supported: 4.33

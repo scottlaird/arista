@@ -1,0 +1,6 @@
+name: Arista 7320X family
+models:
+- name: DCS-7324X-FM
+- name: DCS-7328X-FM
+- name: DCS-7320X-32C
+last-eos-revision-supported: 4.32

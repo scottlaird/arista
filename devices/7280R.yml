@@ -1,0 +1,17 @@
+name: Arista 7280R family
+models:
+- name: DCS-7280CR-48
+- name: DCS-7280QR-C36
+- name: DCS-7280QR-C36-M
+- name: DCS-7280QRA-C36S
+- name: DCS-7280QRA-C36SM
+- name: DCS-7280QR-C72
+- name: DCS-7280SR-48C6
+- name: DCS-7280SRA-48C6
+- name: DCS-7280SRA-48C6-M
+- name: DCS-7280SRAM-48C6
+- name: DCS-7280SRM-40CX2
+- name: DCS-7280TR-48C6
+- name: DCS-7280TRA-48C6
+- name: DCS-7280TRA-48C6-M
+last-eos-revision-supported: 4.33

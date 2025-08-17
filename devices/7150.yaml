@@ -1,0 +1,12 @@
+name: Arista 7150 family
+models:
+- name: DCS-7150S-24
+- name: DCS-7150S-24-CL
+- name: DCS-7150S-24CLD
+- name: DCS-7150S-64-CL
+- name: DCS-7150S-64-CLD
+- name: DCS-7150S-52-CL
+- name: DCS-7150S-52-CLD
+- name: DCS-7150SC-24-CLD
+- name: DCS-7150SC-64-CLD
+last-eos-revision-supported: 4.23

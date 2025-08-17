@@ -1,0 +1,17 @@
+name: Arista 7500E family
+models:
+- name: DCS-7500E-48S-LC
+- name: DCS-7500E-72S-LC
+- name: DCS-7500E-36Q-LC
+- name: DCS-7500E-12CM-LC
+- name: DCS-7500E-12CQ-LC
+- name: DCS-7500E-6C2-LC
+- name: DCS-7500E-6CFPX-LC
+- name: DCS-7500E-48T-LC
+- name: DCS-7500E-SUP
+- name: DCS-7504E-FM
+- name: DCS-7508E-FM
+- name: DCS-7280SE-64
+- name: DCS-7280SE-72
+- name: DCS-7280SE-68
+last-eos-revision-supported: 4.23

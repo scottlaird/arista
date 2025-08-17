@@ -1,0 +1,8 @@
+name: Arista 7050 family
+models:
+- name: DCS-7050S-52
+- name: DCS-7050S-64
+- name: DCS-7050T-52
+- name: DCS-7050T-64
+- name: DCS-7050T-36
+last-eos-revision-supported: 4.18

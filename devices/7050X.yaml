@@ -1,0 +1,151 @@
+name: Arista 7050X family
+pdf-datasheet-url: https://www.arista.com/assets/data/pdf/Datasheets/7050SX-128_64_Datasheet_S.pdf
+models:
+- name: DCS-7050SX-64
+  typical-watts: 140
+  max-watts: 220
+  rack-units: 1
+  cpu-cores: 4
+  cpu-ram-gb: 4
+  cpu-flash-gb: 4
+  switch-chip: Trident2
+  ports:
+    - type: SFP+
+      count: 48
+    - type: QSFP+
+      count: 4
+- name: DCS-7050SX-72Q
+  typical-watts: 144
+  max-watts: 261
+  rack-units: 1
+  cpu-cores: 4
+  cpu-ram-gb: 4
+  cpu-flash-gb: 4
+  switch-chip: Trident2
+  ports:
+    - type: SFP+
+      count: 48
+    - type: QSFP+
+      count: 6
+- name: DCS-7050SX-128
+  typical-watts: 235
+  max-watts: 415
+  rack-units: 2
+  cpu-cores: 4
+  cpu-ram-gb: 8
+  cpu-flash-gb: 4
+  switch-chip: Trident2
+  ports:
+    - type: SFP+
+      count: 96
+    - type: QSFP+
+      count: 8
+- name: DCS-7050SX2-72Q
+  typical-watts: 127
+  max-watts: 251
+  rack-units: 1
+  cpu-cores: 4
+  cpu-ram-gb: 4
+  cpu-flash-gb: 4
+  switch-chip: Trident2+
+  ports:
+    - type: SFP+
+      count: 48
+    - type: QSFP+
+      count: 6  
+- name: DCS-7050SX2-128
+  typical-watts: 214
+  max-watts: 396
+  rack-units: 2
+  cpu-cores: 4
+  cpu-ram-gb: 8
+  cpu-flash-gb: 4
+  switch-chip: Trident2+
+  ports:
+    - type: SFP+
+      count: 96
+    - type: QSFP+
+      count: 8
+- name: DCS-7050QX-32S
+  typical-watts: 150
+  max-watts: 302
+  rack-units: 1
+  cpu-cores: 4
+  cpu-ram-gb: 4
+  cpu-flash-gb: 4
+  switch-chip: Trident2
+  ports:
+    - type: SFP+
+      count: 4
+    - type: QSFP+
+      count: 32
+- name: DCS-7050QX2-32S
+  typical-watts: 129
+  max-watts: 283
+  rack-units: 1
+  cpu-cores: 4
+  cpu-ram-gb: 8
+  cpu-flash-gb: 4
+  switch-chip: Trident2
+  ports:
+    - type: SFP+
+      count: 4
+    - type: QSFP+
+      count: 32
+- name: DCS-7050TX-48
+  typical-watts: 305
+  max-watts: 367
+  rack-units: 1
+  cpu-cores: 4
+  cpu-ram-gb: 4
+  cpu-flash-gb: 4
+  switch-chip: Trident2
+  ports:
+    - type: 10Gbase-T
+      count: 32
+    - type: QSFP+
+      count: 4
+- name: DCS-7050TX-64
+  typical-watts: 315
+  max-watts: 387
+  rack-units: 1
+  cpu-cores: 4
+  cpu-ram-gb: 4
+  cpu-flash-gb: 4
+  switch-chip: Trident2
+  ports:
+    - type: 10Gbase-T
+      count: 48
+    - type: QSFP+
+      count: 4
+- name: DCS-7050TX-72Q
+  typical-watts: 340
+  max-watts: 430
+  rack-units: 1
+  cpu-cores: 4
+  cpu-ram-gb: 4
+  cpu-flash-gb: 4
+  switch-chip: Trident2
+  ports:
+    - type: 10Gbase-T
+      count: 48
+    - type: QSFP+
+      count: 6
+- name: DCS-7050TX-128
+  typical-watts: 570
+  max-watts: 740
+  rack-units: 1
+  cpu-cores: 4
+  cpu-ram-gb: 8
+  cpu-flash-gb: 4
+  switch-chip: Trident2
+  ports:
+    - type: 10Gbase-T
+      count: 96
+    - type: QSFP+
+      count: 8
+      note: no 4x10 breakout DAC support
+last-eos-revision-supported: 4.28
+notes:
+  - SX datasheet is https://www.arista.com/assets/data/pdf/Datasheets/7050SX-128_64_Datasheet_S.pdf
+  - TX datasheet is https://www.arista.com/assets/data/pdf/Datasheets/7050TX-128_48_Datasheet.pdf
