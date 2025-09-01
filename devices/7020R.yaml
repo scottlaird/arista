@@ -1,4 +1,4 @@
-name: Arista 7500R family
+name: Arista 7020R family
 pdf-datasheet-url: "https://www.arista.com/assets/data/pdf/Datasheets/7020R-48_Datasheet.pdf"
 models:
 - name: DCS-7020TR-48

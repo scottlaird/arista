@@ -1,0 +1,47 @@
+name: Arista 7010TX family
+pdf-datasheet-url: "https://www.arista.com/assets/data/pdf/Datasheets/7010TX-Datasheet.pdf"
+end-of-sale-date: 2022-06-13
+end-of-support-date: 2023-10-23
+end-of-support-url: "https://www.arista.com/en/support/advisories-notices/end-of-support/16112-end-of-software-support-7050x2"
+last-eos-revision-supported: 4.28
+end-of-sale-announced: true
+models:
+- name: DCS-7010TX-48
+  typical-watts: 61
+  max-watts: 80
+  rack-units: 1
+  cpu-cores: 2
+  cpu-ram-gb: 4
+  cpu-flash-gb: 8
+  switch-chip: Trident2
+  ports:
+    - type: 1000base-T
+      count: 48
+    - type: SFP28
+      count: 4
+- name: DCS-7010TX-48-DC
+  typical-watts: 56
+  max-watts: 75
+  rack-units: 1
+  cpu-cores: 2
+  cpu-ram-gb: 4
+  cpu-flash-gb: 8
+  switch-chip: Trident2
+  ports:
+    - type: 1000base-T
+      count: 48
+    - type: SFP28
+      count: 4
+- name: DCS-7010TX-48C
+  typical-watts: 83
+  max-watts: 95
+  rack-units: 1
+  cpu-cores: 2
+  cpu-ram-gb: 8
+  cpu-flash-gb: 8
+  switch-chip: Trident2
+  ports:
+    - type: 1000base-T
+      count: 48
+    - type: SFP28
+      count: 4
