@@ -1,0 +1,115 @@
+name: Arista 720XP family
+pdf-datasheet-url: "https://www.arista.com/assets/data/pdf/Datasheets/CCS-720XP-Datasheet.pdf"
+models:
+- name: CCS-720XP-96ZC2
+  typical-watts: 216
+  max-watts: 236
+  rack-units: 2
+  cpu-cores: 2
+  cpu-ram-gb: 4
+  cpu-flash-gb: 8
+  switch-chip: Trident X3
+  ports:
+    - type: 2.5Gbase-T
+      poe-type: 802.3bt
+      poe-watts: 60
+      count: 80
+    - type: 5Gbase-T
+      poe-type: 802.3bt
+      poe-watts: 60
+      count: 16
+    - type: SFP28
+      count: 4
+    - type: QSFP28
+      count: 2
+- name: CCS-720XP-48ZC2
+  typical-watts: 141
+  max-watts: 156
+  rack-units: 1
+  cpu-cores: 2
+  cpu-ram-gb: 4
+  cpu-flash-gb: 8
+  switch-chip: Trident X3
+  ports:
+    - type: 2.5Gbase-T
+      poe-type: 802.3at
+      poe-watts: 30
+      count: 40
+    - type: 5Gbase-T
+      poe-type: 802.3bt
+      poe-watts: 60
+      count: 8
+    - type: SFP28
+      count: 4
+    - type: QSFP28
+      count: 2
+- name: CCS-720XP-24ZY4
+  typical-watts: 141
+  max-watts: 156
+  rack-units: 1
+  cpu-cores: 2
+  cpu-ram-gb: 4
+  cpu-flash-gb: 8
+  switch-chip: Trident X3
+  ports:
+    - type: 2.5Gbase-T
+      poe-type: 802.3at
+      poe-watts: 30
+      count: 16
+    - type: 5Gbase-T
+      poe-type: 802.3bt
+      poe-watts: 60
+      count: 8
+    - type: SFP28
+      count: 4
+- name: CCS-720XP-48TXH-2C-S
+  typical-watts: 168
+  max-watts: 199
+  rack-units: 1
+  cpu-cores: 2
+  cpu-ram-gb: 8
+  cpu-flash-gb: 16
+  switch-chip: Trident X3
+  ports:
+    - type: 10Gbase-T
+      poe-type: 802.3bt
+      poe-watts: 90
+      count: 48
+    - type: SFP28
+      count: 4
+    - type: QSFP28
+      count: 2
+- name: CCS-720XP-48Y6
+  typical-watts: 68
+  max-watts: 93
+  rack-units: 1
+  cpu-cores: 2
+  cpu-ram-gb: 4
+  cpu-flash-gb: 8
+  switch-chip: Trident X3
+  ports:
+    - type: 1000base-T
+      poe-type: 802.3at
+      poe-watts: 30
+      count: 48
+    - type: SFP28
+      count: 6
+- name: CCS-720XP-24Y6
+  typical-watts: 67
+  max-watts: 90
+  rack-units: 1
+  cpu-cores: 2
+  cpu-ram-gb: 4
+  cpu-flash-gb: 8
+  switch-chip: Trident X3
+  ports:
+    - type: 1000base-T
+      poe-type: 802.3at
+      poe-watts: 30
+      count: 24
+    - type: SFP28
+      count: 6
+end-of-sale-announced: false
+notes:
+  - Switch ASIC via https://people.ucsc.edu/~warner/Bufs/720XP.html, but I'm not convinced that all models share the same chip, given spec differences.
+

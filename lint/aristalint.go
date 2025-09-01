@@ -41,15 +41,19 @@ type (
         }
 
         Port struct {
-                Type  string `yaml:"type"`
-                Count int    `yaml:"count"`
-                Note  string `yaml:"note"`
+                Type     string `yaml:"type"`
+                Count    int    `yaml:"count"`
+                PoeType  string `yaml:"poe-type"`
+                PoeWatts int    `yaml:"poe-watts"`
+                Note     string `yaml:"note"`
         }
 )
 
 var (
         portTypes = listToMap([]string{
                 "1000base-T",
+                "2.5Gbase-T",
+                "5Gbase-T",
                 "10Gbase-T",
                 "SFP+",
                 "SFP28",
@@ -60,6 +64,8 @@ var (
         switchChips = listToMap([]string{
                 "Trident2",
                 "Trident2+",
+                "Trident X3",
+                "Qumran-AX",
         })
 )
 
@@ -118,6 +124,10 @@ func verifyFile(filename string) error {
 }
 
 func verifyModel(model Model) error {
+        if model.SwitchChip != "" && switchChips[model.SwitchChip] != true {
+                return fmt.Errorf("switch chip type %q unknown", model.SwitchChip)
+        }
+
         for _, port := range model.Ports {
                 if portTypes[port.Type] != true {
                         return fmt.Errorf("port type %q unknown", port.Type)

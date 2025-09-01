@@ -1,0 +1,21 @@
+name: Arista 720D family
+pdf-datasheet-url: "https://www.arista.com/assets/data/pdf/Datasheets/CCS-720D-Datasheet.pdf"
+models:
+- name: 720DT-24S
+  typical-watts: 134
+  max-watts: 160
+  rack-units: 1
+  cpu-cores: 2
+  cpu-ram-gb: 4
+  cpu-flash-gb: 16
+#  switch-chip: Trident X3  # Unknown, maybe X3?
+  ports:
+    - type: 2.5Gbase-T
+      poe-type: 802.3bt
+      poe-watts: 60
+      count: 48
+    - type: SFP28
+      count: 8
+end-of-sale-announced: false
+notes:
+
